@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmeml version="5">
+  <project>
+    <children>
+      <sequence>
+        <name>Synthetic ChatCut Cut</name>
+        <duration>150</duration>
+        <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+        <media>
+          <video>
+            <format><samplecharacteristics><width>1920</width><height>1080</height></samplecharacteristics></format>
+            <track>
+              <clipitem id="clipitem-1">
+                <name>Synthetic.mov</name><start>0</start><end>90</end><in>30</in><out>120</out>
+                <file id="file-1">
+                  <name>Synthetic.mov</name><duration>900</duration>
+                  <media><video><samplecharacteristics><width>1920</width><height>1080</height></samplecharacteristics></video></media>
+                </file>
+                <filter><effect><parameter><parameterid>scale</parameterid><value>100</value></parameter></effect></filter>
+              </clipitem>
+              <clipitem id="clipitem-2">
+                <name>Synthetic.mov</name><start>90</start><end>150</end><in>180</in><out>240</out>
+                <file id="file-1"/>
+                <filter><effect><parameter><parameterid>scale</parameterid><value>150</value></parameter></effect></filter>
+              </clipitem>
+            </track>
+          </video>
+        </media>
+      </sequence>
+    </children>
+  </project>
+</xmeml>

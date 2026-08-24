@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.fcpxmld/
+*.fcpbundle/
+*.textClipping
+*.mov
+*.mp4
+*.m4v
+*.wav
+*.aif
+*.aiff
