@@ -2,6 +2,8 @@ __pycache__/
 *.py[cod]
 .DS_Store
 *.fcpxmld/
+!tests/fixtures/*.fcpxmld/
+!tests/fixtures/*.fcpxmld/Info.fcpxml
 *.fcpbundle/
 *.textClipping
 *.mov

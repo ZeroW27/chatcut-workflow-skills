@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="Synthetic25" frameDuration="1/25s" width="1920" height="1080"/>
+    <asset id="r2" name="Synthetic.mov" src="file:///synthetic/Synthetic.mov" start="0s" duration="30s" hasVideo="1" hasAudio="1" format="r1"/>
+  </resources>
+  <library><event name="Synthetic Event"><project name="Synthetic Sync Project"><sequence format="r1" duration="30s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k"><spine><sync-clip name="Synthetic Sync" offset="0s" start="0s" duration="30s"><asset-clip ref="r2" offset="0s" start="0s" duration="30s"/></sync-clip></spine></sequence></project></event></library>
+</fcpxml>
