@@ -57,4 +57,4 @@ Both packages start at `0.1.0`. Static and synthetic conversion checks pass; rea
 
 ## License
 
-No public license has been selected yet. Choose and add a license before making the repository public.
+Licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
